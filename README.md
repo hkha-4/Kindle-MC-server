@@ -25,7 +25,7 @@ Amazon officially changed the system compiling environment from a soft-float arc
 
 1. Connect your jailbroken Kindle to your computer using a USB cable.
 2. Open the Kindle drive on your computer when it appears in your file explorer.
-3. Drag and drop your chosen downloaded server file (such as `bareiron_modern`) straight into the main root storage directory of your Kindle.
+3. Drag and drop your chosen downloaded server file (such as `bareiron_modern`) straight into a folder directory of your Kindle.
 4. Safely eject the Kindle from your computer and unplug the USB cable.
 
 ---
@@ -41,7 +41,7 @@ Open the **KTerm** terminal app directly on your jailbroken Kindle screen and ru
 
 2. Navigate into the main storage folder where you copied the file:
    ```bash
-   cd /mnt/us/
+   cd /mnt/us/<your folder>
    ```
 
 3. Give the operating system permission to execute your downloaded server file:
@@ -59,11 +59,7 @@ Open the **KTerm** terminal app directly on your jailbroken Kindle screen and ru
 
 ## Part 3: How to Safely Stop the Server
 
-Because virtual touch keyboards on e-ink devices can make typing complex key combinations like `Control + C` unreliable, use this method to close your active server session safely:
-
-1. Open a secondary tab or a new execution window inside your running **KTerm** application.
-2. Force-kill the process and restore your normal reading screen by typing these two commands:
    ```bash
-   killall bareiron_target_filename
+   Ctrl^C
    start lab126_gui
    ```
