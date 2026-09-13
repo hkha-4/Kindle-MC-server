@@ -16,9 +16,9 @@ Amazon officially changed the system compiling environment from a soft-float arc
 | :--- | :--- | :--- | :--- |
 | **Touch, PW1, PW2, PW3** | All supported firmwares | Soft Float Only | `bareiron_legacy_soft` |
 | **PW4, PW5, Oasis 2, 3** | Firmware **5.16.2.1.1 and older** | Soft Float | `bareiron_midrange_soft` |
-| **PW4, PW5, Oasis 2, 3** | Firmware **5.16.3 and newer** | Hard Float | `bareiron_midrange` |
+| **PW4, PW5, Oasis 2, 3** | Firmware **5.16.3 and newer** | Hard Float | `bareiron_midrangehf` |
 | **11th Gen and Newer** | Firmware **5.16.2.1.1 and older** | Soft Float | `bareiron_modern_soft` |
-| **11th Gen and Newer** | Firmware **5.16.3 and newer** | Hard Float | `bareiron_modern` |
+| **11th Gen and Newer** | Firmware **5.16.3 and newer** | Hard Float | `bareiron_modernhf` |
 
 ---
 
